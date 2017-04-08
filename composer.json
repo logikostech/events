@@ -13,6 +13,7 @@
     "ext-phalcon": ">=2.0"
   },
   "require-dev": {
+    "techpivot/phalcon-ci-installer": ">=1.0",
     "phpunit/phpunit": "^4.0"
   },
   "autoload": {
