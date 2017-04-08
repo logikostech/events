@@ -1,0 +1,24 @@
+{
+  "name": "logikostech/events",
+  "homepage": "https://github.com/logikostech/events",
+  "description": "Events helper for phalcon php projects",
+  "type": "library",
+  "license": "MIT",
+  "authors": [{
+    "name": "Todd Empcke",
+    "email": "tempcke@logikostech.net"
+  }],
+  "require": {
+    "php": ">=5.6",
+    "ext-phalcon": ">=2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Logikos\\": "src/",
+      "Logikos\\Tests\\": "tests/"
+    }
+  }
+}
