@@ -1,3 +1,6 @@
+[![Travis CI](https://img.shields.io/travis/logikostech/events/master.svg)](https://travis-ci.org/logikostech/events)
+[![Software License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/logikostech/core/master/LICENSE)
+
 # Logikos\Events\EventsAwareTrait
 Useful trait when using Phalcon\Events\EventsAwareInterface.
 Key feature is the attachEventListener method in that if an EventsManager is not yet being used by the component it will add one and then attach the event.  This way you don't have to setup your events manager when you setup the \Phalcon\Di services and each controller or library using the componenet can attach their own events as they see fit on a case by case basis.
